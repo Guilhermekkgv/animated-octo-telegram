@@ -5011,7 +5011,7 @@ function Linux.Create(config)
             table.insert(Tabs[tabIndex].Elements, element)
             table.insert(AllElements, {Tab = tabIndex, Element = element})
             
-            global ConnectionManager:elementLoaded()
+            globalConnectionManager:elementLoaded()
             CheckEmptyState()
             
             return Section
